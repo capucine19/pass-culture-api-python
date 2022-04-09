@@ -3,7 +3,7 @@ Api de recherche du pass culture avancée
 
 Cet outil permet de faire des recherches sur l'application pass culture de façon poussée.
 en effet vous pouvez ajouter une liste de librairie et le nom d'un livre. Le programme va rechercher cet item dans tous les endroits demandés.
-Le filtre est assez large : par xemple vous pouvez mettre *fnac paris* et la recherche va rechercher dans toutes les fanc de paris.
+Le filtre est assez large : par exemple vous pouvez mettre *fnac paris* et la recherche va rechercher dans toutes les fanc de paris.
 
 
 ## Exemple n°1 rechercher un livre dans plusieurs librairies : 
