@@ -47,7 +47,7 @@ ___
 --> api qui renvoie du json avec tous les items correspondant à une recherche. 
 Requête en post avec comme paramètres les headers et un payload. 
 
-**Exemple** : https://passculture.app/recherche?showResults=true&query=%22where%20the%20crawdads%20sing%22&locationFilter=%7B%22locationType%22%3A%22AROUND_ME%22%2C%22aroundRadius%22%3A100%7D&offerCategories=%5B%5D&priceRange=%5B0%2C300%5D
+**Exemple** : Pour récupérer les données de cette page https://passculture.app/recherche?showResults=true&query=%22where%20the%20crawdads%20sing%22&locationFilter=%7B%22locationType%22%3A%22AROUND_ME%22%2C%22aroundRadius%22%3A100%7D&offerCategories=%5B%5D&priceRange=%5B0%2C300%5D 
 
 ___
 > url_lieux = 'https://e2ikxj325n-dsn.algolia.net/1/indexes/venues/query?x-algolia-agent=Algolia%20for%20JavaScript%20(4.11.0)%3B%20Browser'
@@ -55,7 +55,7 @@ ___
 --> api qui renvoie du json avec tous les lieux correspondant à une recherche. 
 Requête en post avec comme paramètres les headers et un payload. 
 
-**Exemple** : ![image](https://user-images.githubusercontent.com/44448753/162581747-120a71f6-523f-446d-8270-8f7a9d839193.png)
+**Exemple** : Pour récupérer les lieux comme ceci ![image](https://user-images.githubusercontent.com/44448753/162581747-120a71f6-523f-446d-8270-8f7a9d839193.png)
 
 ___
 > url_item = 'https://backend.passculture.app/native/v1/offer/{id item}'
