@@ -61,3 +61,9 @@ ___
 > url_item = 'https://backend.passculture.app/native/v1/offer/{id item}'
 
 --> api qui permet de récupérer des informations sur une offre en insérant son id.
+
+**Exemple** : https://backend.passculture.app/native/v1/offer/1124720 renvoie : 
+
+```json
+{'id': 1124720, 'accessibility': {'audioDisability': None, 'mentalDisability': None, 'motorDisability': None, 'visualDisability': None}, 'description': None, 'expenseDomains': ['all', 'physical'], 'externalTicketOfficeUrl': None, 'extraData': {'author': 'Owens, Delia', 'durationMinutes': None, 'isbn': '9780593085851', 'musicSubType': None, 'musicType': None, 'performer': None, 'showSubType': None, 'showType': None, 'stageDirector': None, 'speaker': None, 'visa': None}, 'isExpired': False, 'isForbiddenToUnderage': False, 'isReleased': True, 'isSoldOut': False, 'isDigital': False, 'isDuo': False, 'isEducational': False, 'name': 'WHERE THE CRAWDADS SING', 'stocks': [{'id': 1148398, 'beginningDatetime': None, 'bookingLimitDatetime': None, 'cancellationLimitDatetime': None, 'isBookable': True, 'isForbiddenToUnderage': False, 'isSoldOut': False, 'isExpired': False, 'price': 1460, 'activationCode': None}], 'subcategoryId': 'LIVRE_PAPIER', 'image': {'url': 'https://storage.googleapis.com/passculture-metier-prod-production-assets/thumbs/products/FKSYU', 'credit': None}, 'venue': {'id': 969, 'address': 'SQUARE MONSEIGNEUR ROULL', 'city': 'BREST', 'offerer': {'name': 'SA LIBRAIRIE DIALOGUES'}, 'name': 'Dialogues Brest', 'postalCode': '29200', 'publicName': None, 'coordinates': {'latitude': 48.38737, 'longitude': -4.49063}, 'isPermanent': True}, 'withdrawalDetails': None}
+```
